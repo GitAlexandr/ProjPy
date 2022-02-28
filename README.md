@@ -4,3 +4,5 @@ echo '* Перед коммитом изменений нужно убедить
 
 commmit_help.md echo '* Используйте `git add filename` для добавления конкретного файла или git add . для добавления всех файлов' >> commmit_help.md echo '* Чтобы одной командой добавить все изменённые файлы и сделать коммит, выполните git commit -m “commit message"' >> commmit_help.md echo '* Новые файлы добавлены не будут' >> commmit_help.md echo '- [Как сделать новый коммит](./commmit_help.md)' >> README.md
 .
+- [Как просмотреть историю](./log_help.md) echo
+* переключиться на произвольную существующую ветку (git checkout branch-name) echo * создать новую ветку от текущей (git checkout -b new-branch-name) echo - [Ветвление](./branch_help.md)
